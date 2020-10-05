@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400&display=swap');
+
+html {
+    min-width: 500px;
+
+}
+a:link {
+    text-decoration: none;
+    color: #444
+  }
+header {
+    padding-top: 10px;
+    position: fixed;
+    padding-right: 10px;
+    float: right;
+    position: static;
+}
+.login {
+    background-color:#4485f5;
+    border-radius: 0.05em;
+    border: none;
+    color: whitesmoke;
+    padding: 1px 10px 1px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-family: montserrat;
+    font-size: 12px;
+    margin: 2px 2px;
+    cursor: pointer;
+    width: 100px;
+    height: 2.5em;
+    font-weight: bold;
+}
+.arriba {
+    text-align: right;
+    padding: 28px;
+    font-size: 12px;
+    padding-bottom: 25px;
+    font-family: montserrat;
+    color: gray
+}
+#venecita {
+    cursor: pointer;
+}
+#venecita:hover {
+
+}
+
+#cuadri {
+    width: 1.2em;
+    padding-bottom: -30px;
+    vertical-align: sub;
+}
+
+#venecita {
+    padding: 5px;
+    display: inline;
+
+}
+
+.centro {
+    padding: 100px 50px 100px 50px;
+    background-color: white;
+    position: absolute;
+    margin: auto;
+    top: 25%;
+    left: 10%;
+    right: 10%;
+}
+
+#lupa-icon {
+    position: absolute;
+    width: 1.4em;
+    background-color: white;
+}
+.barra-buscadora {
+    margin: auto;
+    border: solid rgba(0, 0, 0, .2) 0.15em;
+    border-radius: 4em;
+    padding: 0.48em;
+    max-width: 500px;
+}
+
+#busqueda, #img_logo {
+    padding-top: 0px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+}
+
+#busqueda {
+    border: solid rgba(0, 0, 0, 0) 0.1em;
+    width: 75%;
+    font-size: 14px;
+    height: 20px;
+}
+
+#busqueda-boton {
+    padding-top: 10px;
+    display: absolute;
+    margin: auto;
+    background-color: white;
+    text-align: center;
+}
+.botoncito:hover {
+    box-shadow: 0px 0px 1px 1px rgb(180, 180, 180);
+}
+.botoncito {
+        background-color: #rgb(242, 242, 242);
+        border-radius: 0.2em;
+        border: none;
+        color: gray;
+        padding: 10px 10px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 14px;
+        margin: 4px 2px;
+        cursor: pointer;
+        width: 175px;
+      
+}
+.arriba {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.footer {
+    padding: 2px 5px 2px 5px;
+    position: fixed;
+    border: solid rgba(0, 0, 0, 5%) 0.1em;
+    font-family: montserrat;
+    font-size: 12px;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(242, 242, 242);
+}
+.list-corporate    {
+        display: inline;
+}
+#footer-a {
+    display: inline-block;
+    padding: 10px;   
+}
+#footer-b {
+    display: inline-block;
+    padding: 10px;   
+    float: right;
+    position: relative;
+}

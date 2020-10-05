@@ -1,7 +1,64 @@
 <!DOCTYPE html>
-<html lang=en>
+<style>
+
+</style>
+<html lang=es>
+
+<!--    ESTRUCTURA
+
+TOP: ("gmail" "imágenes" [botones] "iniciar sesion (boton)")
+MEDIO:  Logo Google
+        Barra de búsqueda (imágen lupa - campo de texto)
+        ("Buscar con google" boton) ("voy a tener suerte" boton)
+BOTTOM: ( ("sobre google / publicidad / negocios") ("como funciona") )  ("Privaciad" "Condiciones" "Preferencias")
+-->
 
 <head>
-
+    <meta charset=utf-8">
+    <title>Buscador Google</title>
+    <link href="styles/style.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet"> 
 </head>
 
+<header>
+    <ul class="arriba">
+        <li id="venecita"><a href="#">Gmail</a></li>
+        <li id="venecita"><a href="#">Imágenes</a></li>
+        <li id="venecita"><img id="cuadri" src="images/cuadri2.png" alt="menú"></li>
+        <li id="venecita"><input type="submit" class="login" name="login" value="Iniciar sesión"></li>
+      </ul> 
+</header>
+
+
+<div class="centro"> 
+        <img id="img_logo" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="logo-google">
+    <form>
+        <div class="barra-buscadora">
+            <img id="lupa-icon" src="images/magnifier.png" alt="ícono de lupa">
+            <input type="text" id="busqueda" name="busqueda">
+        </div>
+            <div id="busqueda-boton">
+            <input type="submit" class="botoncito" name="Buscar" value="Buscar con Google">
+            <input type="submit" class="botoncito" name="tener-suerte" value="Me siento con suerte">
+        </div>
+    </form>
+</div>    
+
+<div class="footer">
+    <div id="list-a">
+        <ul class="list-corporate">
+        <li id="footer-a"><a href="#">Publicidad</a></li>
+        <li id="footer-a"><a href="#">Negocios</a></li>
+        <li id="footer-a"><a href="#">Sobre Google</a></li>
+        </ul> 
+    </div>
+    <div id="list-b">
+    <ul class="list-user">
+        <li id="footer-b"><a href="#">Privacidad</a></li>
+        <li id="footer-b"><a href="#">Condiciones</a></li>
+        <li id="footer-b"><a href="#">Preferencias</a></li>
+        </ul> 
+    </div>
+</div>
+
+</html>
