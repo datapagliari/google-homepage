@@ -129,10 +129,12 @@ header {
 }
 
 .footer {
-    padding: 2px 5px 2px 5px;
-    position: fixed;
+    padding: 2px 5  px 2px 5px;
+    display: inline-flex;
+    position: absolute;
     border: solid rgba(0, 0, 0, 5%) 0.1em;
     font-family: montserrat;
+    justify-content: space-between;
     font-size: 12px;
     left: 0;
     bottom: 0;
@@ -143,12 +145,16 @@ header {
         display: inline;
 }
 #footer-a {
+    box-sizing: content-box;
     display: inline-block;
-    padding: 10px;   
+    padding: 12px;  
+    float: right;
+    position: relative; 
 }
 #footer-b {
     display: inline-block;
-    padding: 10px;   
+    box-sizing: content-box;
+    padding: 0px 12px 0px 12px;   
     float: right;
     position: relative;
 }
